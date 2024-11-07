@@ -5,9 +5,9 @@ def roll():
     max_value = 6
     return random.randint(min_value, max_value)
 
-#Creating fuction to count scores
+#Creating more Functions
 def game(players):
-    max_score = 50
+    max_score = 500
     score = [0 for _ in range(players)]
     current = 0
     
@@ -58,3 +58,5 @@ print(f"Number of players: {players}")
 
 # Starting with the game
 game(players)
+
+#starting the game made by jiya darvai
